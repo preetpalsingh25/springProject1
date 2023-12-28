@@ -25,7 +25,7 @@ public class Demo1Application {
         return List.of(
                 new Student(
                         1L,
-                        "preet pal singh",
+                        "preet pal",
                         23,
                         LocalDate.of(2001, Month.AUGUST,4),
                         "palpreet25@gmail.com"
