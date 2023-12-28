@@ -4,7 +4,6 @@ import com.example.demo.student.Student;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.time.LocalDate;
@@ -27,7 +26,7 @@ public class Demo1Application {
                 new Student(
                         1L,
                         "preet pal singh",
-                        22,
+                        23,
                         LocalDate.of(2001, Month.AUGUST,4),
                         "palpreet25@gmail.com"
                 )
